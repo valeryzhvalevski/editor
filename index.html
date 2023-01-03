@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+ <head>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <h1>WordSmith</h1>
+  <div id="settings">
+   <div>
+    <button onclick="setColor()">Set Color</button>
+    <input type="value">
+   </div>
+   <div>
+    <button onclick="setLink()">Set Link</button>
+    <input type="value" value="https://mimo.app/i/hourglass-large.png"
+     placeholder="https://mimo.app/r/kittles.png">
+   </div>
+   <div>
+    <button onclick="toggleUnderline()">Underline</button>
+    <button onclick="toggleItalic()">Italic</button>
+    <button onclick="toggleBold()">Bold</button>
+    <button onclick="addMonospace()">Monospace</button>
+    <button onclick="removeFormat()">Remove Format</button>
+   </div>
+  </div>
+  <div id="page">
+   <img src="https://mimo.app/i/clock-tower-night.png">
+   <p>It was a bright cold day in April, and the clocks were striking
+    thirteen. </p>
+  </div>
+  <script src="script.js"></script>
+ </body>
+</html>
